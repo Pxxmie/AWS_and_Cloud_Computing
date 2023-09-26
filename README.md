@@ -78,7 +78,18 @@ Cloud platforms provide the infrastructure to host websites and web applications
 - **DevOps and Continuous Integration/Continuous Deployment (CI/CD):** Cloud platforms provide tools and services to automate the development, testing, and deployment of software, enhancing the efficiency of the development process.
 
 #### Types of Cloud 
-##### Private 
-**Private cloud** means using a cloud infrastructure only by one customer/ organisation, and it is not shared with others. For example, Dell is one of the companies that offers private cloud services.
-It is **single tenancy** meaning only data of a single organisation is stored in the cloud.
 
+#### Private 
+**Private cloud** means using a cloud infrastructure only by one customer/ organisation, and it is not shared with others. For example, Dell is one of the companies that offers private cloud services.
+It is **single tenancy** meaning only data of a single organisation is stored in the cloud. The organisation will have their own administrator in order to manage their private cloud services. The organisation offers hardware, they buy all physical servers on which the cloud is build, which makes it more expensive. 
+
+#### Public 
+The cloud computing infrastructure is located on the premises of the company that offers the services.It is multi-tenancy which means multiple users or organisation are sharing the infrastructure and resources provided by the cloud service provider. Their data centre is on the internet where the cloud service providers are available, and they manage the services whereas the organisation uses them. 
+This also means that unlike private cloud, the cloud service provider provides all the hardware for public cloud and ensures its working properly. This makes it cheaper in terms of accessing public cloud. 
+
+<br> 
+
+![private and public cloud.png](images%2Fprivate%20and%20public%20cloud.png)
+<lb>
+
+_Diagram showing an overview of Private and Public Cloud_ 
