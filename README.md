@@ -84,7 +84,7 @@ Cloud platforms provide the infrastructure to host websites and web applications
 It is **single tenancy** meaning only data of a single organisation is stored in the cloud. The organisation will have their own administrator in order to manage their private cloud services. The organisation offers hardware, they buy all physical servers on which the cloud is build, which makes it more expensive. 
 
 #### Public 
-The cloud computing infrastructure is located on the premises of the company that offers the services.It is multi-tenancy which means multiple users or organisation are sharing the infrastructure and resources provided by the cloud service provider. Their data centre is on the internet where the cloud service providers are available, and they manage the services whereas the organisation uses them. 
+The cloud computing infrastructure is located on the premises of the company that offers the services.It is **multi-tenancy** which means multiple users or organisation are sharing the infrastructure and resources provided by the cloud service provider. Their data centre is on the internet where the cloud service providers are available, and they manage the services whereas the organisation uses them. 
 This also means that unlike private cloud, the cloud service provider provides all the hardware for public cloud and ensures its working properly. This makes it cheaper in terms of accessing public cloud. 
 
 <br> 
@@ -92,4 +92,20 @@ This also means that unlike private cloud, the cloud service provider provides a
 ![private and public cloud.png](images%2Fprivate%20and%20public%20cloud.png)
 <lb>
 
-_Diagram showing an overview of Private and Public Cloud_ 
+__Diagram showing the difference between Private and Public Cloud._
+
+#### Hybrid 
+
+A hybrid cloud uses both public and private clouds based on the purpose and requirements.The data stored in a public cloud is multi-tenant, it is kept secure/private with the help of private cloud. The data centre is located inside the organisation for private cloud services and anywhere on the internet for public cloud. 
+The organisation will operate the private cloud whereas the cloud service provider will manage the public cloud. The user can be outside the organisation to access the public cloud or can be inside the organisation to use the public cloud. 
+
+#### Multi-cloud 
+Multi-cloud is when an organisation uses cloud computing services from at least two cloud providers to run their applications. A multi-cloud environment allows your cloud environments to be private, public, or a combination of both.The primary goal of a multi-cloud strategy is to give you flexibility to operate with the best computing environment for each workload.
+
+<br>
+
+![hybrid_vs_multi_cloud.png](images%2Fhybrid_vs_multi_cloud.png)
+
+<br>
+
+_Diagram showing the difference between Multi-cloud and Hybrid_
