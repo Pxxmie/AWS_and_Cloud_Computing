@@ -145,3 +145,11 @@ Businesses can save money on physical hardware, maintenance, and energy costs si
 - **Limited Customisation:** Cloud solutions may not offer the same level of customisation as on-premises. Some businesses with specific needs or requirements may find this limiting.
 - **Cost Usage:** While cloud services can be cost-effective, they can also lead to unexpected expenses if usage isn't monitored. It's important to have a clear understanding of pricing models.
 - **Potential Downtime:** While cloud providers aim for high availability, they can experience outages due to performing maintenance activities, including security patches and updates. During these maintenance, services maby be temporarily down?
+
+#### CapEx vs OpEx
+
+##### Capital Expenditure (CapEx)
+**CapEx** refers to investments in long-term assets which are expected to provide benefits over an extended period. Such as Purchase of property, buildings, or land. Acquisition of machinery, equipment, or vehicles. 
+
+#### Operating Expenses (OpEx)
+**OpEx** refers to ongoing, day-to-day expenses necessary for running a business.The expenses are recorded on the income statement and directly reduces the company's net income.
