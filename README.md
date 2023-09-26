@@ -15,7 +15,7 @@ These resources are hosted and managed by cloud service providers (third party) 
 - It eliminates the need for individuals and businesses to self-manage physical resources themselves, and only pay for what they use.
 <br>
 
-<img height="200" src="C:\Users\Prismika\PycharmProjects\AWS_and_Cloud_Computing\cloud_computing_diagram.png" width="400"/>
+![cloud_computing_diagram.png](cloud_computing_diagram.png)
 
 #### History of Cloud Computing 
 
@@ -59,7 +59,7 @@ These resources are hosted and managed by cloud service providers (third party) 
 
 <lb>
 
-<img height="200" src="C:\Users\Prismika\PycharmProjects\AWS_and_Cloud_Computing\history_of_cloud_computing.png" width="800"/>
+![history_of_cloud_computing.png](history_of_cloud_computing.png)
 
 #### Uses of Cloud Computing 
 Cloud computing offers a wide range of services that can be used for various purposes. Below are some key things you can do with cloud computing: 
