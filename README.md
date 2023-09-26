@@ -55,7 +55,7 @@ These resources are hosted and managed by cloud service providers (third party) 
 
 <lb>
 
-10) 2015: Amazon introduced AWS Lambda, a serverless computing service, allowing developers to run code in response to specific events without having to manage servers.
+10) **2015**: Amazon introduced AWS Lambda, a serverless computing service, allowing developers to run code in response to specific events without having to manage servers.
 
 <lb>
 
@@ -73,4 +73,22 @@ Cloud platforms provide the infrastructure to host websites and web applications
 
 <lb> 
 
-- **Virtual Machines:** Cloud platforms offer virtualization and containerization services that allow you to run applications in isolated environments, providing flexibility and resource efficiency
+- **Virtual Machines:** Cloud platforms offer virtualization and containerization services that allow you to run applications in isolated environments, providing flexibility and resource efficiency.
+
+<lb> 
+
+ - **Developing and Testing Applications:** Cloud environments provide tools and resources for software developers to build, test, and deploy applications. It offers scalability and cost-effective development resources.
+
+<lb> 
+
+- **Collaboration and Communication:** Cloud-based collaboration tools and communication platforms enable teams to work together, share documents, and communicate from anywhere in the world.
+
+<lb> 
+
+- **DevOps and Continuous Integration/Continuous Deployment (CI/CD):** Cloud platforms provide tools and services to automate the development, testing, and deployment of software, enhancing the efficiency of the development process.
+
+#### Types of Cloud 
+##### Private 
+**Private cloud** means using a cloud infrastructure only by one customer/ organisation, and it is not shared with others. For example, Dell is one of the companies that offers private cloud services.
+It is **single tenancy** meaning only data of a single organisation is stored in the cloud.
+
