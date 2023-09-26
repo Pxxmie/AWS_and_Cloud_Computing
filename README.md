@@ -15,39 +15,29 @@ These resources are hosted and managed by cloud service providers (third party) 
 - It eliminates the need for individuals and businesses to self-manage physical resources themselves, and only pay for what they use.
 <br>
 
-![cloud_computing_diagram.png](cloud_computing_diagram.png)
+![cloud_computing_diagram.png](images/cloud_computing_diagram.png)
 
 #### History of Cloud Computing 
 
-1) **1960s - 1970s**: The idea of "utility computing" was first suggested by computer scientist John McCarthy. He suggested that computing resources could be sold like electricity or water.
+1) **1960s**: The idea of "utility computing" was first proposed by computer scientist John McCarthy, he suggested that computing one day will be sold as utility such as electricity and water. 
 
 <lb>
 
-2) **1980s - 1990s:** Telecom companies began offering Virtual Private Network (VPN) services, which enabled companies to securely connect their organisation owned network over the internet. This was an early introduction to cloud networking.
+2) **1970s - 1980s:** Some telecom companies began offering Virtual Private Network (VPN) services, which enabled companies to securely connect their organisation owned network over the internet.
 
 <lb>
 
-3) **1999**: Salesforce, founded by Marc Benioff, was one of the first companies to deliver software over the internet. This highlighted the introduction of Software as a Service (SaaS) model for delivering software applications.
+3) **1999**: Salesforce was one of the first companies to deliver software over the internet. This highlighted the introduction of Software as a Service (SaaS) model for delivering software applications.
 
 <lb>
 
-4) **2002**: Amazon launched Amazon Web Services (AWS) in order to provide computing storage to developers.
+4) **2001 - 2004**: Amazon launched **Amazon Web Services** (AWS) in 2002 in order to provide computing storage to developers.
+
+![history_of_cloud_computing.png](images/history_of_cloud_computing.png)
 
 <lb>
 
-5) **2006**: Amazon introduced Elastic Compute Cloud (EC2), which allowed users to rent virtual computers which could be run on their own computers. 
-
-<lb>
-
-6) **2008**: Google introduced Google App Engine, a platform for developing and hosting web applications in Google-managed data centers.
-
-<lb>
-
-7) **2009:** Microsoft launched Windows Azure,a cloud computing platform, which included storage and other services.
-
-<lb>
-
-8) **2010s:** Cloud computing became very popular, with companies like IBM, Oracle, and Google expanding their cloud services. 
+5) **2005- 2011**: Amazon introduced **Elastic Compute Cloud** (EC2) in 2006, which allowed users to rent virtual computers which could be run on their own computers. Database services started becoming available on the cloud and the popular Dropbox concept facilitated cloud storage as a service. Cloud providers offered data centres in a few locations, but after 2008, multiple regions were available. Cloud computing became very popular, with companies like IBM, Oracle, and Google expanding their cloud services. 
 
 <lb>
 
@@ -59,7 +49,7 @@ These resources are hosted and managed by cloud service providers (third party) 
 
 <lb>
 
-![history_of_cloud_computing.png](history_of_cloud_computing.png)
+![history_of_cloud_computingp2.png](images%2Fhistory_of_cloud_computingp2.png)
 
 #### Uses of Cloud Computing 
 Cloud computing offers a wide range of services that can be used for various purposes. Below are some key things you can do with cloud computing: 
@@ -73,7 +63,7 @@ Cloud platforms provide the infrastructure to host websites and web applications
 
 <lb> 
 
-- **Virtual Machines:** Cloud platforms offer virtualization and containerization services that allow you to run applications in isolated environments, providing flexibility and resource efficiency.
+- **Virtual Machines:** Computers within a computer. Cloud platforms offer virtualization and containerization services that allow you to run applications in isolated environments, providing flexibility and resource efficiency.
 
 <lb> 
 
