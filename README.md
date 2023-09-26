@@ -149,7 +149,7 @@ Businesses can save money on physical hardware, maintenance, and energy costs si
 #### CapEx vs OpEx
 
 ##### Capital Expenditure (CapEx)
-**CapEx** refers to investments in long-term assets which are expected to provide benefits over an extended period. Such as Purchase of property, buildings, or land. Acquisition of machinery, equipment, or vehicles. 
+**CapEx** refers to investments in long-term assets which are expected to provide benefits over an extended period. Such as Purchase of property, buildings, or land.  
 
 #### Operating Expenses (OpEx)
 **OpEx** refers to ongoing, day-to-day expenses necessary for running a business.The expenses are recorded on the income statement and directly reduces the company's net income.
