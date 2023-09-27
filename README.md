@@ -92,7 +92,7 @@ This also means that unlike private cloud, the cloud service provider provides a
 ![private and public cloud.png](images%2Fprivate%20and%20public%20cloud.png)
 <lb>
 
-__Diagram showing the difference between Private and Public Cloud._
+_Diagram showing the difference between Private and Public Cloud._
 
 ##### Hybrid 
 
