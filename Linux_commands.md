@@ -99,3 +99,53 @@ touch cat.txt
 $ file cat.txt
 cat.jpg: ASCII text
 ```
+
+`cat` command  is used to display the content of text files. 
+
+`nano` is an in built Linux **text editor** that operates directly in the terminal. For example by running ‘nano cat.txt’ it opens nano text editor and allows you to edit the file. If it is a new file, it starts with a blank page and enables you to make changes to the file. It provides a menu at the bottom with various commands for saving, exiting etc. 
+
+To exit the editor you need to press **Ctrl + X** then it will prompt you to save the changes in which you press Y for yes and enter. Press N for no. 
+
+`head` command is used to display the beginning lines of a file. By default, it displays the first 10 lines, but you can specify how many lines you want it to display. For example running ‘head -1 cat.txt’ will display the first line from the file. 
+
+```bash
+$ head -1 cat.txt
+Hello, this is line 1. 
+```
+
+`tail` command is opposite of the ‘head’ command. It displays the last part of the file. For example running ‘tail -2 cat.txt’ will output the last two lines from the file. 
+
+if the file ‘cat.txt’ contained: 
+
+```bash
+Hello, this is line 1. 
+This is line 2.
+This is line 3.
+```
+
+the output of  command ‘tail -2 cat.txt’ will be: 
+
+```bash
+This is line 2.
+This is line 3.
+```
+
+`nl`  counts and displays the number of lines in the file. However, it does not count the white spaces used in the file. 
+
+`grep` stands for global regular expression print. It is used for searching s specific text. It is useful for extracting specific information from files. 
+
+For example the command ‘cat cat.txt | grep cat’ is used to display lines from the file ‘cat.txt’ that contain the word “cat”.
+
+`|`  this is called a pipe operator, it takes the output from the command on the left ‘cat cat.txt’ and passes it as input to the command on the right ‘grep cat’. 
+
+```bash
+cat cat.txt | grep cat
+```
+
+`sudo apt install tree` this command displays directory in a tree like structure in the terminal. 
+
+`cd /` - changes your current working directory to the root directory.
+
+`sudo su`  running this command will elevate your privileges to superuser. This means you will have administrative access. 
+
+ You can run `exit` to return back to your regular user account.
