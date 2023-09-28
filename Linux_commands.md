@@ -149,3 +149,104 @@ cat cat.txt | grep cat
 `sudo su`  running this command will elevate your privileges to superuser. This means you will have administrative access. 
 
  You can run `exit` to return back to your regular user account.
+
+ ### Making a script for EC2 Instances 
+
+I have created a bash script to in order to deploy nginx webserver package. Below are the steps I have followed in order to create this script.
+
+1) On my git bash terminal I have run ``` nano provision.sh  ``` command in order to open the nano text editor with a blank file named 'provision.sh'.
+
+2) On the first line of my blank file, I have typed `#!/bin/bash` which is known as the shebang line. This line indicates that the script should be executed using bash shell. 
+
+3) After, I have typed the script that performs the following tasks: 
+
+```
+#!/bin/bash
+
+# update
+sudo apt update
+
+# upgrade
+sudo apt upgrade -y
+
+# install nginx
+sudo apt install nginx -y
+
+# restart nginx
+sudo systemctl restart nginx
+
+# enable nginx
+sudo systemctl enable nginx 
+```
+4) Finally, in order to save my script I clicked ctrl + x to exit and pressed 'y' for yes to save. Then press entered for the prompt to name the file. 
+
+5) In order to make my script executable, I ran the following command. 
+
+```
+sudo chmod +x provision.sh
+``` 
+
+This means that I can now run my script. 
+To trigger and execute my script, I used the following command: 
+
+```
+./provision.sh 
+```
+
+### Managing processes in Linux 
+
+`ps` - this command is used to display information about active processes.
+
+Example:
+```bash
+ubuntu@ip-172-31-60-44:~$ ps --help
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+ubuntu@ip-172-31-60-44:~$
+```
+
+`ps aux` - displays a list of all the running processes with detailed information. 
+
+`ps -A ` -  display information about all processes running on the system.it will also show their Process IDs (PIDs).
+
+`ps --help` - summary of usage of the ps command.
+
+```
+ubuntu@ip-172-31-60-44:~$ ps --help
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+ubuntu@ip-172-31-60-44:~$
+
+```
+
+`top` - displays a dynamic view of system processes such as CPU, memory usuage,name etc.
+You can press `Shift + M` while top is running and it will sort the displayed processes by memory usage. `Shift + P` will sort it by CPU ussage. 
+
+`sleep 5` - will instruct the system to pause or "sleep" for 5 seconds. You can press `ctrl + z` to stop. 
+```
+ubuntu@ip-172-31-60-44:~$ sleep 5
+^Z
+[1]+  Stopped                 sleep 5 
+
+```
+`sleep 5000 &` - will run the sleep command in the background, causing it to "sleep" for 5000 seconds. However the `&` tells the shell to run the command in the background, allowing you to continue using the terminal. It will also return back the PID.
+
+```
+ubuntu@ip-172-31-60-44:~$ sleep 5000 &
+[2] 28918```
+
+
