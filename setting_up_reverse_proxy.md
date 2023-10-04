@@ -41,4 +41,4 @@ server_name _;
 
 5) Save the default file, then go to the directory where your app is and run your nginx script. After the server is successfully live type your public IP from your instance it should now show the Sparta app without entering port 3000.
 
-![Alt text](<../images/Screenshot 2023-10-04 122130.png>)
+![Alt text](<images/Screenshot 2023-10-04 122130.png>)
