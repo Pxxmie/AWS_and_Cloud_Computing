@@ -1,4 +1,4 @@
-### Managing processes in Linux 
+### Managing processes in Linux
 
 `ps` - this command is used to display information about active processes.
 

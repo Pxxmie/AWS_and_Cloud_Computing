@@ -1,7 +1,8 @@
-### PM2 - Process Manager 
+### PM2 - Process Manager
 
 #### What is PM2 and Why is it useful?
-PM2 is a process manager for production Node.js application. It helps to manage and keep your Node.js application running alive in production envrionment. 
+
+PM2 is a process manager for production Node.js application. It helps to manage and keep your Node.js application running alive in production envrionment.
 
  PM2 helps you understand how well your application is running and how much computer power it's using. It can also make your app work faster by running multiple copies at once.
 
@@ -11,46 +12,34 @@ PM2 is a process manager for production Node.js application. It helps to manage 
 
 - PM2 can be configured to automatically restart your application in case it crashes or encounters an error.
 
--  It provides tools for managing application logs
+- It provides tools for managing application logs
 
 - Provides a built-in monitoring dashboard that gives you real-time information about CPU usage, memory usage etc.
 
-
 ### Useful Commands
+
 ***Install node.js first***
-##### Installation 
+
+##### Installation
 
 `sudo npm install pm2 -g`
 
 ##### Create a node app
 
-`nano app.js` 
+`nano app.js`
 
 ##### Run the app using PM2
 
-`pm2 start [app]` - starting an application 
+`pm2 start [app]` - starting an application
 
-`pm2 list` - listing running application 
+`pm2 list` - listing running application
 
-`pm2 stop [app]` - stopping an application 
+`pm2 stop [app]` - stopping an application
 
-`pm2 restart [app]` - restarting an application 
+`pm2 restart [app]` - restarting an application
 
-`pm2 logs [app]` - viewing logs 
+`pm2 logs [app]` - viewing logs
 
-`pm2 monit` - monitoring CPU/Memory usuage 
+`pm2 monit` - monitoring CPU/Memory usuage
 
-`pm2 show [app]` - checking application status 
-
-
-
-
-
-
-
-
-
-
-
-
-
+`pm2 show [app]` - checking application status
