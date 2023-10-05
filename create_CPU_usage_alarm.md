@@ -1,5 +1,5 @@
 
-#### How to create a CPU usage alarm for your EC2 instance.
+## How to create a CPU usage alarm for your EC2 instance.
 
 Below, I will be showing you how to create and set up a CPU usage alarm. When the average CPU use of your EC2 instance exceeds the speicifed threshold an alarm will be triggered and a notification will be sent to your email.
 
