@@ -1,4 +1,4 @@
-### PM2 - Process Manager
+PM2 - Process Manager
 
 #### What is PM2 and Why is it useful?
 
@@ -20,15 +20,15 @@ PM2 is a process manager for production Node.js application. It helps to manage 
 
 ***Install node.js first***
 
-##### Installation
+#### Installation
 
 `sudo npm install pm2 -g`
 
-##### Create a node app
+#### Create a node app
 
 `nano app.js`
 
-##### Run the app using PM2
+#### Run the app using PM2
 
 `pm2 start [app]` - starting an application
 
