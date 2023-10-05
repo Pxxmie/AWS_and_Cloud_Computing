@@ -7,7 +7,7 @@ Below, I will be showing you how to create and set up a CPU usage alarm. When th
 
 ![Alt text](images/create_alarm.png)
 
-2) Then select **choose metric **
+2) Then select **choose metric**
 
 ![Alt text](images/select_metric.png)
 
