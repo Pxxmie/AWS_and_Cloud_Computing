@@ -70,7 +70,7 @@ print("file has been successfully uploaded!")
 
 4) Executed the file by running `python upload-file.py` and successfully uploaded a file into my s3 bucket. 
 
-![Alt text](images/upload-file.png)
+![Alt text](../images/upload-file.png)
 
 #### Downloading a file from bucket
 
