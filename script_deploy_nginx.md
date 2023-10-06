@@ -77,6 +77,7 @@ provision_2.sh
 
 4) Make sure before you run the script, that your app has been transfered to your EC2 instance. Also make sure your new script is moved over to your app folder on where you would like the app deployment script to run. 
 
+
 ###### Troubleshooting- moving new script to app folder in order to run the script.
 
 ```
