@@ -1,6 +1,6 @@
-### How to get an app code into an EC2 instance and deploy it. 
+## How to get an app code into an EC2 instance and deploy it. 
 
-#### Get an app code into an EC2 Instance. 
+## Get an app code into an EC2 Instance. 
 
 1) Open git bash terminal on your local machine. 
 

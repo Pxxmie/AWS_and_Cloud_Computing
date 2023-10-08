@@ -1,4 +1,4 @@
-# How to set up a Nginx reverse proxy?
+## How to set up a Nginx reverse proxy?
 
 1) Firstly, you need to make sure that the nginx server is either already running on your instance or you need to make sure its installed by running the following command. 
 
