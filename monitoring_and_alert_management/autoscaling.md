@@ -1,6 +1,9 @@
  ## How to setup HA-SC with AWS.
 
-Setting up HA-SC ensures that your application remains available even if one or more instances or components fail this ensures High availability.
+Setting up HA-SC ensures that your application remains available even if one or more instances or components fail this ensures High availability. Below shows an diagram explaning the step by step process on how to deploy app with HA-SC.
+
+
+![Alt text](<images/Beige Colorful Minimal Flowchart Infographic Graph.png>)
 
 ### Creating a Launch Template
  Launch template in AWS is a useful tool for managing and launching instances. 
@@ -118,3 +121,5 @@ Finally we should see that we have 2 instances running under our EC2 instance op
 The picture below shows what happens when I manually delete one instance. It has automatically created another one. 
 
 ![Alt text](images/3_running.png)
+
+
