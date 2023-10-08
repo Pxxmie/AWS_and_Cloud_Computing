@@ -1,4 +1,1 @@
-
-
-
-![Alt text](./images/Disaster_prevention.png)
+![Alt text](images/Disaster__prevention.png)
