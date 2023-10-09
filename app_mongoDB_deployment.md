@@ -81,6 +81,11 @@ Example:
 ```bash
 echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 ```
+Followed by the command below in order to update our terminal again:
+
+```
+sudo apt update
+```
 
 15) This command is used to install specific versions of MongoDB components. So you can see from here that its installing the (3.2.20) onto our system. 
 
