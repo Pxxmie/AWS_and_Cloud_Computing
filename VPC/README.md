@@ -16,4 +16,4 @@ The public subnet has a route table that directs traffic to the internet through
 
 **Private Subnet** - In a private subnet, resources do not have direct internet access. They can't access the internet without going through a specific route.
 
-![Alt text](../images/VPC.png)
+![Alt text](images/VPC.png)
