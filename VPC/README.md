@@ -1,19 +1,43 @@
 ### Virtual Private Cloud (VPC)
 
-**VPC** is a **virtual network** and your AWS account includes a default VPC in each AWS Region. Your default VPCs are configured such that you can immediately start launching and connecting to EC2 instances.
-However creating a custom **VPC** means you have greater control over security such as IP address range, subnets, route tables etc. 
 
-**Subnets** - A subnet is a range of IP adddresses in your VPC. Subnet must reside in a single Availability zone. 
+#### What is VPC? 
 
-**IP Addressing** - You can assign IP addresses, IPv4 to your VPCs and subnets. 
+**VPC** stands for Virtual Private Cloud and it  is a **virtual network**. Amazon web service includes a default VPC in each AWS Region. Your default VPCs are configured such that you can immediately start launching and connecting to EC2 instances.  
+<br>
+However creating a custom **VPC** means you have greater control over security such configuring IP address range, subnets, route tables etc. 
 
-**Routing**- You use route tables to determine where network traffic from your subnet or gateway is directed. 
+#### Explaining Virtual Private Cloud
 
-**Internet Gateway** - A gateway connects your VPC to another network. For example, use an internet gateway to connect your VPC to the internet.
-
-**Public Subnet** - In a public subnet, resources can have public IP addresses, allowing them to communicate directly with the internet.
-The public subnet has a route table that directs traffic to the internet through an Internet Gateway (IGW). This enables resources in the public subnet to access the internet.
-
-**Private Subnet** - In a private subnet, resources do not have direct internet access. They can't access the internet without going through a specific route.
+Below i a diagram I have created in order to explain each stages of a VPC. As you can see we are creating a public and a private subnet, so the app virtual machine is linked to the public subnet and the database is linked to the private subnet. We want our database virtual machine to be secure and not allow it to communicate with the internet. 
 
 ![Alt text](images/VPC.png)
+
+**Step 1: VPC**
+
+First we need to **create a VPC (Virtual Private Network)**. By creating VPC we are creating a network that we have defined and customised ourselves. We can define a VPC's IP address space from ranges we select. For example 10.0.0.0/16  
+
+
+**Step 2: Subnet**
+
+ Here you can create subnets and associate with availability zones within a region. You can also create a public and private subnet and have the public subnet communicate with the internet gateway. 
+
+**Step 3: Internet Gateway**
+
+Internet Gateway acts as a bridge between your VPC and the internet. Here you can associate your IGW with your VPC in order to connect your public subnet to the internet. 
+
+**Step 4 , 5, 6 : Route Table**
+
+Route tables are used to control the traffic between subnets to the internet. We can associate subnet to route table by clicking subnet association and selecting your desired subnet (public). We can also set routes that specify the destination and target.
+
+**Step 7: Check VPC** 
+
+We can always go back to our VPC to check and make sure everything is fine. You can check details such as subnets, route tables, associated resousrces etc. 
+
+**Step 8 & 9: Create and Launch Instances with your VPC**
+
+Finally you can create your two EC2 instances, using the VPC you have made and adding a security group. 
+
+<br> 
+
+**Please refer to VPC\creating_vpc.md in order to follow a step by step guide on how to create a VPC.** 
