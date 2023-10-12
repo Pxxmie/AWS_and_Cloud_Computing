@@ -1,4 +1,4 @@
-### Making a script for EC2 Instances 
+## Making a script for EC2 Instances 
 
 I have created a bash script to in order to deploy nginx webserver package. Below are the steps I have followed in order to create this script.
 
@@ -8,79 +8,80 @@ I have created a bash script to in order to deploy nginx webserver package. Belo
 
 3) After, I have typed the script that performs the following tasks: 
 
-```
-#!/bin/bash
+   ```bash
+   #!/bin/bash
 
-# update
-sudo apt update
+   # update
+   sudo apt update
 
-# upgrade
-sudo apt upgrade -y
+   # upgrade
+   sudo apt upgrade -y
 
-# install nginx
-sudo apt install nginx -y
+   # install nginx
+   sudo apt install nginx -y
 
-# restart nginx
-sudo systemctl restart nginx
+   # restart nginx
+   sudo systemctl restart nginx
 
-# enable nginx
-sudo systemctl enable nginx 
-```
+   # enable nginx
+   sudo systemctl enable nginx 
+   ```
 4) Finally, in order to save my script I clicked ctrl + x to exit and pressed 'y' for yes to save. Then press entered for the prompt to name the file. 
 
 5) In order to make my script executable, I ran the following command. 
 
-```
-sudo chmod +x provision.sh
-``` 
+   ```
+   sudo chmod +x provision.sh
+   ``` 
 
-This means that I can now run my script. 
-To trigger and execute my script, I used the following command: 
+   This means that I can now run my script. 
+   To trigger and execute my script, I used the following command: 
 
-```
-./provision.sh 
-```
+   ```
+   ./provision.sh 
+   ```
 
 ### Creating a script to deploy the app
 
 1) `ubuntu@ip-172-31-49-67:~$ nano provision_2.sh` in order to create a blank new sh file so our script can be written on.
 
 2) Added the following script below the nginx web server script. 
-```
-# install Node.js and npm
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt install nodejs -y
+   
+   ```bash
+   # install Node.js and npm
+   curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+   sudo apt install nodejs -y
 
-# check Node.js version
-node -v
+   # check Node.js version
+   node -v
 
-# install pm2 globally
-sudo npm install pm2 -g
+   # install pm2 globally
+   sudo npm install pm2 -g
 
-# install project dependencies
-npm install
+   # install project dependencies
+   npm install
 
-# Start the Node.js application
-node app.js
+   # Start the Node.js application
+   node app.js
 
-```
+   ```
 3) Now, after saving the script - I have checking if the script has been created as well as granting permission for it to execute. 
 
-```
-ubuntu@ip-172-31-49-67:~$ ls
-provision_2.sh
-ubuntu@ip-172-31-49-67:~$ sudo chmod +x provision_2.sh
-ubuntu@ip-172-31-49-67:~$ ls
-provision_2.sh
+   ```
+   buntu@ip-172-31-49-67:~$ ls
+   provision_2.sh
+   ubuntu@ip-172-31-49-67:~$ sudo chmod +x provision_2.sh
+   ubuntu@ip-172-31-49-67:~$ ls
+   provision_2.sh
 
-```
+   ```
 
 4) Make sure before you run the script, that your app has been transfered to your EC2 instance. Also make sure your new script is moved over to your app folder on where you would like the app deployment script to run. 
 
 
-###### Troubleshooting- moving new script to app folder in order to run the script.
+### Troubleshooting- moving new script to app folder in order to run the script.
 
-```
+```bash
 *** System restart required ***
 Last login: Fri Sep 29 08:51:24 2023 from 188.213.138.195
 ubuntu@ip-172-31-49-67:~$ ls
