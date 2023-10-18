@@ -1,1 +1,0 @@
-![Alt text](images/Disaster__prevention.png)
