@@ -29,11 +29,10 @@ sudo npm install pm2 -g
 sudo apt install git -y
 
 # clone repo with app folder into folder called 'repo' - only needed if don't have the app folder already
-git clone https://github.com/LSF970/sparta_test_app.git repo
+git clone https://github.com/Pxxmie/AWS_and_Cloud_Computing.git
 
 # install the app (must be after db vm is finished provisioning)
-cd repo
-cd app
+cd AWS_and_Cloud_Computing/app/app
 npm install
 
 # start the app (could also use 'npm start')
